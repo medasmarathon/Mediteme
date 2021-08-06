@@ -9,6 +9,11 @@
     "categories": [
         "Themes"
     ],
+    "publisher": "DucDang",
+    "author": {
+        "name": "Duc Dang",
+        "email": "artesuto@gmail.com"
+    },
     "contributes": {
         "themes": [
             {
