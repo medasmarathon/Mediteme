@@ -1,0 +1,21 @@
+{
+    "name": "mediteme",
+    "displayName": "Mediteme",
+    "description": "Dark syntax semantic color theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Mediteme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Mediteme-color-theme.json"
+            }
+        ]
+    }
+}
