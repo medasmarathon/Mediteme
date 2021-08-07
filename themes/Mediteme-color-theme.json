@@ -493,12 +493,12 @@
 		//"editor.lineHighlightBackground": null,
 		//"editor.rangeHighlightBorder": null,
 		//"editor.selectionForeground": null,
-		//"editor.selectionHighlightBorder": "#fffbfb",
+		"editor.selectionHighlightBorder": "#59adf781",
 		//"editor.snippetFinalTabstopHighlightBackground": null,
 		//"editor.snippetTabstopHighlightBorder": null,
-		//"editor.symbolHighlightBorder": null,
+		//"editor.symbolHighlightBorder": "#59adf79d",
 		//"editor.wordHighlightBorder": "#fdfdfd",
-		"editor.wordHighlightStrongBorder": "#59adf79d",
+		//"editor.wordHighlightStrongBorder": "#59adf79d",
 		//"editorCursor.background": null,
 		//"editorError.background": null,
 		//"editorError.border": null,
@@ -588,12 +588,12 @@
 	},
 	"semanticTokenColors": {
 		"function": "#8bd4c7",
-		"variable": "#aed5ffe5",
+		"variable": "#bad1fce5",
 		"property": {
 			"foreground": "#d1b8eb"
 		},
 		"parameter": {
-			"foreground": "#fafcff"
+			"foreground": "#fafffe"
 		}
 	},
 	"semanticHighlighting": true,
@@ -601,7 +601,7 @@
 		{
 			"scope": "source, variable, meta.object, meta.tag, support.constant, meta.function-call.arguments, variable.parameter.function, support.type.object, support.variable, variable.parameter, variable.other",
 			"settings": {
-				"foreground": "#b5c3d4"
+				"foreground": "#a8c0ece5"
 			}
 		},
 		{
@@ -660,7 +660,7 @@
 		{
 			"scope": "comment, punctuation.definition.comment",
 			"settings": {
-				"foreground": "#81B073"
+				"foreground": "#81b073d8"
 			}
 		},
 		{
