@@ -1,9 +1,6 @@
 # Change Log
 
-All notable changes to the "mediteme" extension will be documented in this file.
+## [Init]
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Init with color selection for theme
 
-## [Unreleased]
-
-- Initial release
