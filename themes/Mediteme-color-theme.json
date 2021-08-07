@@ -131,7 +131,7 @@
 		//"editorLightBulb.foreground": "#ffcc00",
 		//"editorLightBulbAutoFix.foreground": "#75beff",
 		"editorLineNumber.activeForeground": "#ffd4b8",
-		"editorLineNumber.foreground": "#ffffff65",
+		"editorLineNumber.foreground": "#ffffff4d",
 		//"editorLineNumber.background": "#131010",
 		//"editorLink.activeForeground": "#4e94ce",
 		//"editorMarkerNavigation.background": "#2d2d30",
@@ -439,7 +439,7 @@
 		//"terminal.ansiWhite": "#e5e5e5",
 		//"terminal.ansiYellow": "#e5e510",
 		//"terminal.border": "#80808059",
-		//"terminal.dropBackground": "#53595d80",
+		"terminal.dropBackground": "#3e454980",
 		//"terminal.foreground": "#cccccc",
 		//"terminal.selectionBackground": "#ffffff40",
 		//"testing.iconErrored": "#f14c4c",
@@ -587,13 +587,14 @@
 		//"window.inactiveBorder": null
 	},
 	"semanticTokenColors": {
+		"namespace": "#2DA7C9",
 		"function": "#8bd4c7",
 		"variable": "#bad1fce5",
-		"property": {
-			"foreground": "#d1b8eb"
-		},
-		"parameter": {
-			"foreground": "#fafffe"
+		"property": "#d1b8eb",
+		"parameter":  "#fafffe",
+		"typeParameter": {
+			"foreground": "#FFFFFF",
+			"italic": true	
 		}
 	},
 	"semanticHighlighting": true,
@@ -601,7 +602,7 @@
 		{
 			"scope": "source, variable, meta.object, meta.tag, support.constant, meta.function-call.arguments, variable.parameter.function, support.type.object, support.variable, variable.parameter, variable.other",
 			"settings": {
-				"foreground": "#a8c0ece5"
+				"foreground": "#bad1fce5"
 			}
 		},
 		{
@@ -658,9 +659,15 @@
 			}
 		},
 		{
+			"scope": "constant.character.escape",
+			"settings": {
+				"foreground": "#f1c2c2",
+			}
+		},
+		{
 			"scope": "comment, punctuation.definition.comment",
 			"settings": {
-				"foreground": "#81b073d8"
+				"foreground": "#81b073b7"
 			}
 		},
 		{
