@@ -668,7 +668,7 @@
 		{
 			"scope": "entity.name.type.interface",
 			"settings": {
-				"foreground": "#2081ff"
+				"foreground": "#5c9cf0"
 			}
 		},
 		{
