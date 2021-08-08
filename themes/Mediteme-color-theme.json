@@ -589,7 +589,9 @@
 	"semanticTokenColors": {
 		"namespace": "#2DA7C9",
 		"function": "#8bd4c7",
-		"variable": "#bad1fce5",
+		"variable": "#cbe7c3e5",
+		"variable.readonly": "#2DA7C9",
+		"*.defaultLibrary": "#2DA7C9",
 		"property": "#d1b8eb",
 		"parameter":  "#fafffe",
 		"typeParameter": {
@@ -602,7 +604,7 @@
 		{
 			"scope": "source, variable, meta.object, meta.tag, support.constant, meta.function-call.arguments, variable.parameter.function, support.type.object, support.variable, variable.parameter, variable.other",
 			"settings": {
-				"foreground": "#bad1fce5"
+				"foreground": "#cbe7c3e5"
 			}
 		},
 		{
