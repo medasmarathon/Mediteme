@@ -589,13 +589,24 @@
 	"semanticTokenColors": {
 		"namespace": "#2DA7C9",
 		"function": "#8bd4c7",
-		"variable": "#cbe7c3e5",
-		"variable.readonly": "#2DA7C9",
-		"*.defaultLibrary": "#2DA7C9",
+		"variable": "#d5f0ffe7",
+		"variable.readonly": {
+			"foreground":	"#dae2ca",
+			"bold": true
+		},
+		"variable.readonly.local": {
+			"foreground":	"#dae2ca",
+			"italic": true,
+			"bold": false
+		},
+		"variable.defaultLibrary": {
+			"foreground": "#2DA7C9",
+			"bold": true,
+		},
 		"property": "#d1b8eb",
-		"parameter":  "#fafffe",
+		"parameter":  "#dae2ca",
 		"typeParameter": {
-			"foreground": "#FFFFFF",
+			"foreground": "#d7ffe1",
 			"italic": true	
 		}
 	},
@@ -604,7 +615,7 @@
 		{
 			"scope": "source, variable, meta.object, meta.tag, support.constant, meta.function-call.arguments, variable.parameter.function, support.type.object, support.variable, variable.parameter, variable.other",
 			"settings": {
-				"foreground": "#cbe7c3e5"
+				"foreground": "#d5f0ffe7"
 			}
 		},
 		{
@@ -687,7 +698,7 @@
 		{
 			"scope": "support.type.property-name, punctuation.support.type.property-name",
 			"settings": {
-				"foreground": "#D7BA7D"
+				"foreground": "#86c7f3"
 			}
 		},
 		{
