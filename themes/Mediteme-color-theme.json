@@ -589,7 +589,7 @@
 	"semanticTokenColors": {
 		"namespace": "#2DA7C9",
 		"function": "#77eed8",
-		"variable": "#d5f0ffe7",
+		"variable": "#e1e1e1",
 		"variable.readonly": {
 			"foreground":	"#c8daa6",
 			"bold": true
@@ -615,7 +615,7 @@
 		{
 			"scope": "source, variable, meta.object, meta.tag, support.constant, meta.function-call.arguments, variable.parameter.function, support.type.object, support.variable, variable.parameter, variable.other",
 			"settings": {
-				"foreground": "#d5f0ffe7"
+				"foreground": "#e1e1e1"
 			}
 		},
 		{
@@ -663,6 +663,12 @@
 			"settings": {
 				"foreground": "#2DA7C9",
 				"fontStyle": "normal"
+			}
+		},
+		{
+			"scope": "entity.name.type.interface",
+			"settings": {
+				"foreground": "#2081ff"
 			}
 		},
 		{
