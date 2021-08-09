@@ -490,7 +490,7 @@
 		//"editor.findMatchBorder": null,
 		//"editor.findMatchHighlightBorder": null,
 		//"editor.findRangeHighlightBorder": null,
-		//"editor.lineHighlightBackground": null,
+		"editor.lineHighlightBackground": "#000000d7",
 		//"editor.rangeHighlightBorder": null,
 		//"editor.selectionForeground": null,
 		//"editor.selectionHighlightBorder": "#59adf781",
@@ -588,14 +588,15 @@
 	},
 	"semanticTokenColors": {
 		"namespace": "#2DA7C9",
-		"function": "#77eed8",
+		"interface": "#5c9cf0",
+		"function": "#6fd4c2",
 		"variable": "#e1e1e1",
 		"variable.readonly": {
 			"foreground":	"#c8daa6",
 			"bold": true
 		},
 		"variable.readonly.local": {
-			"foreground":	"#dae2ca",
+			"foreground":	"#e1e1e1",
 			"italic": true,
 			"bold": false
 		},
@@ -603,7 +604,7 @@
 			"foreground": "#2DA7C9",
 			"bold": true,
 		},
-		"property": "#d1b8eb",
+		"property": "#b9adcf",
 		"parameter":  "#c8daa6",
 		"typeParameter": {
 			"foreground": "#d7ffe1",
@@ -666,7 +667,7 @@
 			}
 		},
 		{
-			"scope": "entity.name.type.interface",
+			"scope": "entity.name.type.interface, entity.name.type.namespace",
 			"settings": {
 				"foreground": "#5c9cf0"
 			}
@@ -704,7 +705,7 @@
 		{
 			"scope": "property-name, support.function, meta.function-call, entity.name.function, variable.legacy.builtin, keyword.language.gherkin.feature.step, text.gherkin.feature entity.name.type.class",
 			"settings": {
-				"foreground": "#77eed8"
+				"foreground": "#6fd4c2"
 			}
 		},
 		{
@@ -794,7 +795,7 @@
 				"variable.other.property"
 			],
 			"settings": {
-				"foreground": "#BCA7E9"
+				"foreground": "#b9adcf"
 			}
 		},
 		{

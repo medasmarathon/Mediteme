@@ -1,6 +1,10 @@
 # Change Log
 
 
+## [1.0.3]
+
+- Reduce saturation & intensity of some colors
+
 ## [0.2.5]
 
 - Add markup colors
