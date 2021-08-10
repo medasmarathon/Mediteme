@@ -1,6 +1,6 @@
 # Meditheme
 
-Them focused on flow recognition and semantic colors
+Theme focused on flow recognition and semantic colors
 
 ## Description
 
