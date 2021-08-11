@@ -2,7 +2,7 @@
     "name": "mediteme",
     "displayName": "Meditheme",
     "description": "Dark syntax semantic color theme",
-    "version": "1.0.7",
+    "version": "1.0.11",
     "engines": {
         "vscode": "^1.40.0"
     },
@@ -19,7 +19,7 @@
             {
                 "label": "Meditheme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Mediteme-color-theme.json"
+                "path": "./themes/Meditheme-color-theme.json"
             }
         ]
     },
