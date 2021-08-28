@@ -590,6 +590,14 @@
 		"namespace": "#2DA7C9",
 		"interface": "#5c9cf0",
 		"function": "#8de2d3",
+		"magicFunction": {
+			"foreground": "#9bf8e7",
+			"italic": true,
+		},
+		"annotation": {
+			"foreground": "#9feea9",
+			"italic": true
+		},
 		"variable": {
 			"foreground": "#e1e1e1",
 			"italic": true,

@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.0.17]
+
+- Some semantic colors for python magic functions + self param
 
 ## [1.0.3]
 
