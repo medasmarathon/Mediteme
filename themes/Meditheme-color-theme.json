@@ -490,7 +490,7 @@
 		//"editor.findMatchBorder": null,
 		//"editor.findMatchHighlightBorder": null,
 		//"editor.findRangeHighlightBorder": null,
-		"editor.lineHighlightBackground": "#383736da",
+		"editor.lineHighlightBackground": "#292827da",
 		//"editor.rangeHighlightBorder": null,
 		//"editor.selectionForeground": null,
 		//"editor.selectionHighlightBorder": "#59adf781",
@@ -589,15 +589,20 @@
 	"semanticTokenColors": {
 		"namespace": "#2DA7C9",
 		"interface": "#5c9cf0",
-		"function": "#6fd4c2",
-		"variable": "#e1e1e1",
+		"function": "#8de2d3",
+		"variable": {
+			"foreground": "#e1e1e1",
+			"italic": true,
+			"bold": false
+		},
 		"variable.readonly": {
-			"foreground":	"#c8daa6",
-			"bold": true
+			"foreground": "#bac5a8",
+			"bold": true,
+			"italic": false,
 		},
 		"variable.readonly.local": {
-			"foreground":	"#e1e1e1",
-			"italic": true,
+			"foreground": "#e1e1e1",
+			"italic": false,
 			"bold": false
 		},
 		"variable.defaultLibrary": {
@@ -605,10 +610,16 @@
 			"bold": true,
 		},
 		"property": "#b9adcf",
-		"parameter":  "#c8daa6",
+		"parameter": "#bac5a8",
+		"selfParameter": {
+			"foreground": "#bac5a8",
+			"bold": true,
+			"italic": false,
+		},
+		"comment": "#81b073b7",
 		"typeParameter": {
 			"foreground": "#d7ffe1",
-			"italic": true	
+			"italic": true
 		}
 	},
 	"semanticHighlighting": true,
@@ -705,7 +716,7 @@
 		{
 			"scope": "property-name, support.function, meta.function-call, entity.name.function, variable.legacy.builtin, keyword.language.gherkin.feature.step, text.gherkin.feature entity.name.type.class",
 			"settings": {
-				"foreground": "#6fd4c2"
+				"foreground": "#8de2d3"
 			}
 		},
 		{
@@ -791,7 +802,7 @@
 		},
 		{
 			"scope": [
-				"variable.other.object.property",				
+				"variable.other.object.property",
 				"variable.other.property"
 			],
 			"settings": {
