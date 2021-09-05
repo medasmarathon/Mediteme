@@ -2,7 +2,7 @@
     "name": "mediteme",
     "displayName": "Meditheme",
     "description": "Dark syntax semantic color theme",
-    "version": "1.0.19",
+    "version": "1.0.22",
     "engines": {
         "vscode": "^1.40.0"
     },
