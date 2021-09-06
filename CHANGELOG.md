@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.25]
+
+- Some colors for line + selection highlight
+
 ## [1.0.17]
 
 - Some semantic colors for python magic functions + self param

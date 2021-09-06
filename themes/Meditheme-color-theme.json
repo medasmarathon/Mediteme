@@ -94,13 +94,13 @@
 		//"editor.lineHighlightBorder": "#282828",
 		//"editor.linkedEditingBackground": "#ff00004d",
 		//"editor.rangeHighlightBackground": "#ffffff0b",
-		"editor.selectionBackground": "#143658",
-		"editor.selectionHighlightBackground": "#1d3b5a99",
+		"editor.selectionBackground": "#15416dea",
+		"editor.selectionHighlightBackground": "#14304db2",
 		//"editor.snippetFinalTabstopHighlightBorder": "#525252",
 		//"editor.snippetTabstopHighlightBackground": "#7c7c7c4d",
 		//"editor.stackFrameHighlightBackground": "#ffff0033",
 		//"editor.symbolHighlightBackground": "#ea5c0055",
-		"editor.wordHighlightBackground": "#373b359a",
+		"editor.wordHighlightBackground": "#4044339a",
 		"editor.wordHighlightStrongBackground": "#013a7ab8",
 		//"editorActiveLineNumber.foreground": "#fde5e5",
 		//"editorBracketMatch.background": "#0064001a",
@@ -490,14 +490,14 @@
 		//"editor.findMatchBorder": null,
 		//"editor.findMatchHighlightBorder": null,
 		//"editor.findRangeHighlightBorder": null,
-		"editor.lineHighlightBackground": "#2b2927c7",
+		"editor.lineHighlightBackground": "#272625af",
 		//"editor.rangeHighlightBorder": "#cc0000",
-		"editor.selectionForeground": "#cc0000",
-		//"editor.selectionHighlightBorder": "#59adf781",
+		//"editor.selectionForeground": "#cc0000",
+		"editor.selectionHighlightBorder": "#59adf781",
 		//"editor.snippetFinalTabstopHighlightBackground": null,
 		//"editor.snippetTabstopHighlightBorder": null,
 		//"editor.symbolHighlightBorder": "#59adf79d",
-		"editor.wordHighlightBorder": "#3a63299a",
+		"editor.wordHighlightBorder": "#2963599a",
 		"editor.wordHighlightStrongBorder": "#267ecc9d",
 		//"editorCursor.background": null,
 		//"editorError.background": null,
@@ -617,7 +617,7 @@
 			"foreground": "#2DA7C9",
 			"bold": true,
 		},
-		"property": "#b9adcf",
+		"property": "#c3b8d6",
 		"parameter": "#bac5a8",
 		"selfParameter": {
 			"foreground": "#bac5a8",
@@ -640,10 +640,16 @@
 			}
 		},
 		{
-			"scope": "keyword, keyword.control, keyword.type, keyword.other, keyword.operator.new, keyword.operator.expression, storage, primitive, modifier, language.constant, meta.preprocessor, variable.language.this, support.type.primitive, keyword.operator.logical, keyword.language.gherkin.feature",
+			"scope": "keyword, keyword.control, keyword.type, keyword.other, keyword.operator.new, keyword.operator.expression, storage, primitive, modifier, language.constant, meta.preprocessor, variable.language.this, support.type.primitive, keyword.language.gherkin.feature",
 			"settings": {
 				"foreground": "#FF8811",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "keyword.operator.logical",
+			"settings": {
+				"foreground": "#E06C75",
 			}
 		},
 		{
@@ -821,7 +827,7 @@
 				"variable.other.property"
 			],
 			"settings": {
-				"foreground": "#b9adcf"
+				"foreground": "#c3b8d6"
 			}
 		},
 		{
