@@ -91,7 +91,7 @@
 		//"editor.inactiveSelectionBackground": "#264f7880",
 		//"editor.inlineValuesBackground": "#ffc80033",
 		//"editor.inlineValuesForeground": "#ffffff80",
-		//"editor.lineHighlightBorder": "#282828",
+		"editor.lineHighlightBorder": "#9fced11f",
 		//"editor.linkedEditingBackground": "#ff00004d",
 		//"editor.rangeHighlightBackground": "#ffffff0b",
 		"editor.selectionBackground": "#15416dea",
@@ -490,7 +490,7 @@
 		//"editor.findMatchBorder": null,
 		//"editor.findMatchHighlightBorder": null,
 		//"editor.findRangeHighlightBorder": null,
-		"editor.lineHighlightBackground": "#272625af",
+		"editor.lineHighlightBackground": "#1073cf2d",
 		//"editor.rangeHighlightBorder": "#cc0000",
 		//"editor.selectionForeground": "#cc0000",
 		"editor.selectionHighlightBorder": "#59adf781",
@@ -655,7 +655,8 @@
 		{
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#79C0FF",
+				"foreground": "#bbaad8",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -695,7 +696,6 @@
 			"scope": "entity.name.type.alias, entity.name.type.class, meta.return.type, class.type.name, storage.type.variable, meta.type.annotation, return-type, inherited-class, entity.other.inherited-class, declaration.entity.type, declaration.heritage.type, storage.type.cs, new.expr, string.language.gherkin",
 			"settings": {
 				"foreground": "#2DA7C9",
-				"fontStyle": "normal"
 			}
 		},
 		{
