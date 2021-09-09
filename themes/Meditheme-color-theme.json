@@ -590,11 +590,11 @@
 		"namespace": "#2DA7C9",
 		"interface": "#5c9cf0",
 		"function": {
-			"foreground": "#8de2d3",
+			"foreground": "#99ffece7",
 			"bold": false,
 		},
 		"method": {
-			"foreground": "#8de2d3",
+			"foreground": "#99ffece7",
 			"bold": false,
 		},
 		"magicFunction": {
@@ -608,17 +608,17 @@
 			"italic": true
 		},
 		"variable": {
-			"foreground": "#daecfff3",
+			"foreground": "#fff6e2b4",
 			"italic": true,
 			"bold": false
 		},
 		"variable.readonly": {
-			"foreground": "#bac5a8",
+			"foreground": "#c0bfb4",
 			"bold": true,
 			"italic": false,
 		},
 		"variable.readonly.local": {
-			"foreground": "#daecfff3",
+			"foreground": "#fff6e2b4",
 			"italic": false,
 			"bold": false
 		},
@@ -626,8 +626,8 @@
 			"foreground": "#2DA7C9",
 			"bold": true,
 		},
-		"property": "#c3b8d6",
-		"parameter": "#d6e4c2",
+		"property": "#d2c8e2f3",
+		"parameter": "#c2e4e4ea",
 		"selfParameter": {
 			"foreground": "#e1e1e1",
 			"bold": true,
@@ -641,7 +641,7 @@
 		},
 		"enum": "#20a377e7",
 		"controlKeyword": {
-			"foreground": "#FF8811",
+			"foreground": "#ff8d1b",
 			"bold": true,
 		},
 		"clsParameter": "#d7ffe1"
@@ -651,7 +651,7 @@
 		{
 			"scope": "source, variable, meta.object, meta.tag, support.constant, meta.function-call.arguments, variable.parameter.function, support.type.object, support.variable, variable.parameter, variable.other",
 			"settings": {
-				"foreground": "#daecfff3",
+				"foreground": "#fff6e2b4",
 				"fontStyle": "",
 			}
 		},
@@ -760,7 +760,7 @@
 		{
 			"scope": "property-name, support.function, meta.function-call, entity.name.function, variable.legacy.builtin, keyword.language.gherkin.feature.step, text.gherkin.feature entity.name.type.class",
 			"settings": {
-				"foreground": "#8de2d3"
+				"foreground": "#99ffece7"
 			}
 		},
 		{
@@ -851,7 +851,7 @@
 				"variable.other.property"
 			],
 			"settings": {
-				"foreground": "#c3b8d6"
+				"foreground": "#d2c8e2f3"
 			}
 		},
 		{
