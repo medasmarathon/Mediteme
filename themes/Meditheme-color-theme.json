@@ -588,13 +588,14 @@
 	},
 	"semanticTokenColors": {
 		"namespace": "#2DA7C9",
-		"interface": "#5c9cf0",
+		"interface": "#2DA7C9",
+		"class": "#5c9cf0",
 		"function": {
-			"foreground": "#99ffece7",
+			"foreground": "#7dffe7e7",
 			"bold": false,
 		},
 		"method": {
-			"foreground": "#99ffece7",
+			"foreground": "#7dffe7e7",
 			"bold": false,
 		},
 		"magicFunction": {
@@ -714,14 +715,14 @@
 		{
 			"scope": "entity.name.type.alias, entity.name.type.class, meta.return.type, class.type.name, storage.type.variable, meta.type.annotation, return-type, inherited-class, entity.other.inherited-class, declaration.entity.type, declaration.heritage.type, storage.type.cs, new.expr, string.language.gherkin",
 			"settings": {
-				"foreground": "#2DA7C9",
+				"foreground": "#5c9cf0",
 				"fontStyle": "",
 			}
 		},
 		{
 			"scope": "entity.name.type.interface, entity.name.type.namespace",
 			"settings": {
-				"foreground": "#5c9cf0",
+				"foreground": "#2DA7C9",
 				"fontStyle": "",
 			}
 		},
@@ -760,7 +761,7 @@
 		{
 			"scope": "property-name, support.function, meta.function-call, entity.name.function, variable.legacy.builtin, keyword.language.gherkin.feature.step, text.gherkin.feature entity.name.type.class",
 			"settings": {
-				"foreground": "#99ffece7"
+				"foreground": "#7dffe7e7"
 			}
 		},
 		{
