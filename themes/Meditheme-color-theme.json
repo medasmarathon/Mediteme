@@ -178,16 +178,16 @@
 		//"extensionIcon.starForeground": "#ff8e00",
 		//"focusBorder": "#007fd4",
 		//"foreground": "#cccccc",
-		//"gitDecoration.addedResourceForeground": "#81b88b",
-		//"gitDecoration.conflictingResourceForeground": "#e4676b",
-		//"gitDecoration.deletedResourceForeground": "#c74e39",
-		//"gitDecoration.ignoredResourceForeground": "#8c8c8c",
-		//"gitDecoration.modifiedResourceForeground": "#e2c08d",
-		//"gitDecoration.renamedResourceForeground": "#73c991",
-		//"gitDecoration.stageDeletedResourceForeground": "#c74e39",
-		//"gitDecoration.stageModifiedResourceForeground": "#e2c08d",
-		//"gitDecoration.submoduleResourceForeground": "#8db9e2",
-		//"gitDecoration.untrackedResourceForeground": "#73c991",
+		"gitDecoration.addedResourceForeground": "#81b88b",
+		"gitDecoration.conflictingResourceForeground": "#e4676b",
+		"gitDecoration.deletedResourceForeground": "#c74e39",
+		"gitDecoration.ignoredResourceForeground": "#8c8c8c",
+		"gitDecoration.modifiedResourceForeground": "#e2c08d",
+		"gitDecoration.renamedResourceForeground": "#73c991",
+		"gitDecoration.stageDeletedResourceForeground": "#c74e39",
+		"gitDecoration.stageModifiedResourceForeground": "#e2c08d",
+		"gitDecoration.submoduleResourceForeground": "#8db9e2",
+		"gitDecoration.untrackedResourceForeground": "#73c991",
 		//"gitlens.closedPullRequestIconColor": "#f85149",
 		//"gitlens.decorations.addedForegroundColor": "#81b88b",
 		//"gitlens.decorations.branchAheadForegroundColor": "#35b15e",
@@ -628,7 +628,7 @@
 			"bold": true,
 		},
 		"property": "#d2c8e2f3",
-		"parameter": "#c2e4e4ea",
+		"parameter": "#ffdfdfea",
 		"selfParameter": {
 			"foreground": "#e1e1e1",
 			"bold": true,
@@ -908,6 +908,48 @@
 			"settings": {
 				"foreground": "#e6db74",
 			}
-		}
+		},
+		{
+			"scope": [
+				"markup.deleted",
+				"meta.diff.header.from-file",
+				"punctuation.definition.deleted"
+			],
+			"settings": {
+				"foreground": "#FFA198",
+				"background": "#490202"
+			}
+		},
+		{
+			"scope": [
+				"markup.inserted",
+				"meta.diff.header.to-file",
+				"punctuation.definition.inserted"
+			],
+			"settings": {
+				"foreground": "#7EE787",
+				"background": "#04260F"
+			}
+		},
+		{
+			"scope": [
+				"markup.changed",
+				"punctuation.definition.changed"
+			],
+			"settings": {
+				"foreground": "#FFA657",
+				"background": "#5A1E02"
+			}
+		},
+		{
+			"scope": [
+				"markup.ignored",
+				"markup.untracked"
+			],
+			"settings": {
+				"foreground": "#161B22",
+				"background": "#79C0FF"
+			}
+		},
 	]
 }
