@@ -609,7 +609,7 @@
 			"italic": true
 		},
 		"variable": {
-			"foreground": "#fff6e2b4",
+			"foreground": "#d9e9e8cc",
 			"italic": true,
 			"bold": false
 		},
@@ -619,7 +619,7 @@
 			"italic": false,
 		},
 		"variable.readonly.local": {
-			"foreground": "#fff6e2b4",
+			"foreground": "#d9e9e8cc",
 			"italic": false,
 			"bold": false
 		},
@@ -628,9 +628,9 @@
 			"bold": true,
 		},
 		"property": "#d2c8e2f3",
-		"parameter": "#ffdfdfea",
+		"parameter": "#ddc0c0dc",
 		"selfParameter": {
-			"foreground": "#e1e1e1",
+			"foreground": "#e1e1e1dc",
 			"bold": true,
 			"italic": false,
 		},
@@ -652,7 +652,7 @@
 		{
 			"scope": "source, variable, meta.object, meta.tag, support.constant, meta.function-call.arguments, variable.parameter.function, support.type.object, support.variable, variable.parameter, variable.other",
 			"settings": {
-				"foreground": "#fff6e2b4",
+				"foreground": "#d9e9e8cc",
 				"fontStyle": "",
 			}
 		},
