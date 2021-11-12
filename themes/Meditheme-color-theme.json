@@ -94,14 +94,14 @@
 		"editor.lineHighlightBorder": "#9fced11f",
 		//"editor.linkedEditingBackground": "#ff00004d",
 		//"editor.rangeHighlightBackground": "#ffffff0b",
-		"editor.selectionBackground": "#15416dea",
-		"editor.selectionHighlightBackground": "#14304db2",
+		"editor.selectionBackground": "#4c5f2cec",
+		"editor.selectionHighlightBackground": "#15416d88",
 		//"editor.snippetFinalTabstopHighlightBorder": "#525252",
 		//"editor.snippetTabstopHighlightBackground": "#7c7c7c4d",
 		//"editor.stackFrameHighlightBackground": "#ffff0033",
 		//"editor.symbolHighlightBackground": "#ea5c0055",
-		"editor.wordHighlightBackground": "#4044339a",
-		"editor.wordHighlightStrongBackground": "#013a7ab8",
+		"editor.wordHighlightBackground": "#40443370",
+		"editor.wordHighlightStrongBackground": "#01397a6e",
 		//"editorActiveLineNumber.foreground": "#fde5e5",
 		//"editorBracketMatch.background": "#0064001a",
 		//"editorBracketMatch.border": "#888888",
@@ -610,7 +610,6 @@
 		},
 		"variable": {
 			"foreground": "#d9e9e8cc",
-			"italic": true,
 			"bold": false
 		},
 		"variable.readonly": {
@@ -619,7 +618,7 @@
 			"italic": false,
 		},
 		"variable.readonly.local": {
-			"foreground": "#d9e9e8cc",
+			"foreground": "#d9e9e8e1",
 			"italic": false,
 			"bold": false
 		},
@@ -627,7 +626,7 @@
 			"foreground": "#2DA7C9",
 			"bold": true,
 		},
-		"property": "#d2c8e2f3",
+		"property": "#a0a0c0",
 		"parameter": "#ddc0c0dc",
 		"selfParameter": {
 			"foreground": "#e1e1e1dc",
@@ -645,7 +644,8 @@
 			"foreground": "#ff8d1b",
 			"bold": true,
 		},
-		"clsParameter": "#d7ffe1"
+		"clsParameter": "#d7ffe1",
+		"operator": "#e6616c"
 	},
 	"semanticHighlighting": true,
 	"tokenColors": [
@@ -666,14 +666,14 @@
 		{
 			"scope": "keyword.operator.logical",
 			"settings": {
-				"foreground": "#E06C75",
+				"foreground": "#e6616c",
 				"fontStyle": "bold"
 			}
 		},
 		{
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#bbaad8",
+				"foreground": "#d8aad8",
 				"fontStyle": "bold"
 			}
 		},
@@ -852,7 +852,7 @@
 				"variable.other.property"
 			],
 			"settings": {
-				"foreground": "#d2c8e2f3"
+				"foreground": "#a0a0c0"
 			}
 		},
 		{
