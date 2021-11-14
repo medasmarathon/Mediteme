@@ -94,7 +94,7 @@
 		"editor.lineHighlightBorder": "#9fced11f",
 		//"editor.linkedEditingBackground": "#ff00004d",
 		//"editor.rangeHighlightBackground": "#ffffff0b",
-		"editor.selectionBackground": "#4c5f2cec",
+		"editor.selectionBackground": "#193770ec",
 		"editor.selectionHighlightBackground": "#15416d88",
 		//"editor.snippetFinalTabstopHighlightBorder": "#525252",
 		//"editor.snippetTabstopHighlightBackground": "#7c7c7c4d",
@@ -587,9 +587,9 @@
 		//"window.inactiveBorder": null
 	},
 	"semanticTokenColors": {
-		"namespace": "#2DA7C9",
-		"interface": "#2DA7C9",
-		"class": "#5c9cf0",
+		"namespace": "#8f9ff0",
+		"interface": "#8f9ff0",
+		"class": "#2c9cf0",
 		"function": {
 			"foreground": "#7dffe7e7",
 			"bold": false,
@@ -608,6 +608,9 @@
 			"bold": false,
 			"italic": true
 		},
+		"local": {
+			"foreground": "#d9e9e8cc",
+		},
 		"variable": {
 			"foreground": "#d9e9e8cc",
 			"bold": false
@@ -623,7 +626,7 @@
 			"bold": false
 		},
 		"variable.defaultLibrary": {
-			"foreground": "#2DA7C9",
+			"foreground": "#8D5BCF",
 			"bold": true,
 		},
 		"property": "#a0a0c0",
@@ -715,14 +718,14 @@
 		{
 			"scope": "entity.name.type.alias, entity.name.type.class, meta.return.type, class.type.name, storage.type.variable, meta.type.annotation, return-type, inherited-class, entity.other.inherited-class, declaration.entity.type, declaration.heritage.type, storage.type.cs, new.expr, string.language.gherkin",
 			"settings": {
-				"foreground": "#5c9cf0",
+				"foreground": "#2c9cf0",
 				"fontStyle": "",
 			}
 		},
 		{
 			"scope": "entity.name.type.interface, entity.name.type.namespace",
 			"settings": {
-				"foreground": "#2DA7C9",
+				"foreground": "#8f9ff0",
 				"fontStyle": "",
 			}
 		},
