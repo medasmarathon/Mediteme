@@ -589,7 +589,7 @@
 	"semanticTokenColors": {
 		"namespace": "#8f9ff0",
 		"interface": "#8f9ff0",
-		"class": "#2c9cf0",
+		"class": "#109cff",
 		"function": {
 			"foreground": "#7dffe7e7",
 			"bold": false,
@@ -626,10 +626,10 @@
 			"bold": false
 		},
 		"variable.defaultLibrary": {
-			"foreground": "#8D5BCF",
+			"foreground": "#5f8ff0",
 			"bold": true,
 		},
-		"property": "#a0a0c0",
+		"property": "#70a397ec",
 		"parameter": "#ddc0c0dc",
 		"selfParameter": {
 			"foreground": "#e1e1e1dc",
@@ -718,7 +718,7 @@
 		{
 			"scope": "entity.name.type.alias, entity.name.type.class, meta.return.type, class.type.name, storage.type.variable, meta.type.annotation, return-type, inherited-class, entity.other.inherited-class, declaration.entity.type, declaration.heritage.type, storage.type.cs, new.expr, string.language.gherkin",
 			"settings": {
-				"foreground": "#2c9cf0",
+				"foreground": "#109cff",
 				"fontStyle": "",
 			}
 		},
@@ -855,7 +855,7 @@
 				"variable.other.property"
 			],
 			"settings": {
-				"foreground": "#a0a0c0"
+				"foreground": "#70a397ec"
 			}
 		},
 		{
