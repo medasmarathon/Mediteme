@@ -694,13 +694,13 @@
 				"fontStyle": "italic"
 			}
 		},
-		{
-			"scope": "punctuation, keyword.operator, storage.type.function.arrow",
-			"settings": {
-				"foreground": "#FFFFFF",
-				"fontStyle": "normal"
-			}
-		},
+		// {
+		// 	"scope": "punctuation, keyword.operator, storage.type.function.arrow",
+		// 	"settings": {
+		// 		"foreground": "#FFFFFF",
+		// 		"fontStyle": "normal"
+		// 	}
+		// },
 		{
 			"scope": "punctuation.definition, punctuation.terminator",
 			"settings": {
