@@ -599,7 +599,7 @@
 			"bold": false,
 		},
 		"magicFunction": {
-			"foreground": "#9bf8e7",
+			"foreground": "#31fcd7e7",
 			"italic": true,
 			"bold": false,
 		},
@@ -629,7 +629,7 @@
 			"foreground": "#5f8ff0",
 			"bold": true,
 		},
-		"property": "#70a397ec",
+		"property": "#a6ffd1b0",
 		"parameter": "#ddc0c0dc",
 		"selfParameter": {
 			"foreground": "#e1e1e1dc",
@@ -642,7 +642,7 @@
 			"italic": true,
 			"bold": false,
 		},
-		"enum": "#20a377e7",
+		"enum": "#20a377",
 		"controlKeyword": {
 			"foreground": "#ff8d1b",
 			"bold": true,
@@ -855,7 +855,7 @@
 				"variable.other.property"
 			],
 			"settings": {
-				"foreground": "#70a397ec"
+				"foreground": "#a6ffd1b0"
 			}
 		},
 		{
