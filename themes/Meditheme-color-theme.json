@@ -591,15 +591,15 @@
 		"interface": "#8f9ff0",
 		"class": "#109cff",
 		"function": {
-			"foreground": "#7dffe7e7",
+			"foreground": "#6cfde3e7",
 			"bold": false,
 		},
 		"method": {
-			"foreground": "#7dffe7e7",
+			"foreground": "#6cfde3e7",
 			"bold": false,
 		},
 		"magicFunction": {
-			"foreground": "#31fcd7e7",
+			"foreground": "#17ffd5e7",
 			"italic": true,
 			"bold": false,
 		},
@@ -629,7 +629,7 @@
 			"foreground": "#5f8ff0",
 			"bold": true,
 		},
-		"property": "#a6ffd1b0",
+		"property": "#fdf4c4b0",
 		"parameter": "#ddc0c0dc",
 		"selfParameter": {
 			"foreground": "#e1e1e1dc",
@@ -644,26 +644,40 @@
 		},
 		"enum": "#20a377",
 		"controlKeyword": {
-			"foreground": "#ff8d1b",
+			"foreground": "#fd962e",
 			"bold": true,
 		},
 		"clsParameter": "#d7ffe1",
-		"operator": "#e6616c"
+		"operator": "#e6616c",
 	},
 	"semanticHighlighting": true,
 	"tokenColors": [
 		{
-			"scope": "source, variable, meta.object, meta.tag, support.constant, meta.function-call.arguments, variable.parameter.function, support.type.object, support.variable, variable.parameter, variable.other",
+			"scope": "source, variable, meta.object, meta.tag, support.constant, meta.function-call.arguments, variable.parameter.function, support.type.object",
 			"settings": {
 				"foreground": "#d9e9e8cc",
 				"fontStyle": "",
 			}
 		},
 		{
-			"scope": "keyword, keyword.control, keyword.type, keyword.other, keyword.operator.new, keyword.operator.expression, storage, primitive, modifier, language.constant, meta.preprocessor, variable.language.this, support.type.primitive, keyword.language.gherkin.feature",
+			"scope": "support.variable, variable.parameter, variable.other",
+			"settings": {
+				"foreground": "#ddc0c0dc",
+				"fontStyle": "",
+			}
+		},
+		{
+			"scope": "keyword, keyword.control, keyword.operator.expression, storage, primitive, modifier, language.constant, meta.preprocessor, variable.language.this, support.type.primitive, keyword.language.gherkin.feature",
 			"settings": {
 				"foreground": "#FF8811",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"scope": "keyword.type, keyword.other, keyword.operator.new",
+			"settings": {
+				"foreground": "#d8c51bd8",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -764,7 +778,7 @@
 		{
 			"scope": "property-name, support.function, meta.function-call, entity.name.function, variable.legacy.builtin, keyword.language.gherkin.feature.step, text.gherkin.feature entity.name.type.class",
 			"settings": {
-				"foreground": "#7dffe7e7"
+				"foreground": "#6cfde3e7"
 			}
 		},
 		{
@@ -855,7 +869,7 @@
 				"variable.other.property"
 			],
 			"settings": {
-				"foreground": "#a6ffd1b0"
+				"foreground": "#fdf4c4b0"
 			}
 		},
 		{
