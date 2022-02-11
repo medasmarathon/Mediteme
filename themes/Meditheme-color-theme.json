@@ -589,7 +589,7 @@
 	"semanticTokenColors": {
 		"namespace": "#8f9ff0",
 		"interface": "#8f9ff0",
-		"class": "#109cff",
+		"class": "#44b0fd",
 		"function": {
 			"foreground": "#6cfde3e7",
 			"bold": false,
@@ -626,11 +626,11 @@
 			"bold": false
 		},
 		"variable.defaultLibrary": {
-			"foreground": "#5f8ff0",
+			"foreground": "#719cf1",
 			"bold": true,
 		},
 		"property": "#fdf4c4b0",
-		"parameter": "#ddc0c0dc",
+		"parameter": "#ceb4b4dc",
 		"selfParameter": {
 			"foreground": "#e1e1e1dc",
 			"bold": true,
@@ -662,7 +662,7 @@
 		{
 			"scope": "support.variable, variable.parameter, variable.other",
 			"settings": {
-				"foreground": "#ddc0c0dc",
+				"foreground": "#ceb4b4dc",
 				"fontStyle": "",
 			}
 		},
@@ -676,7 +676,7 @@
 		{
 			"scope": "keyword.type, keyword.other, keyword.operator.new",
 			"settings": {
-				"foreground": "#d8c51bd8",
+				"foreground": "#d8a61bd8",
 				"fontStyle": ""
 			}
 		},
@@ -732,7 +732,7 @@
 		{
 			"scope": "entity.name.type.alias, entity.name.type.class, meta.return.type, class.type.name, storage.type.variable, meta.type.annotation, return-type, inherited-class, entity.other.inherited-class, declaration.entity.type, declaration.heritage.type, storage.type.cs, new.expr, string.language.gherkin",
 			"settings": {
-				"foreground": "#109cff",
+				"foreground": "#44b0fd",
 				"fontStyle": "",
 			}
 		},
