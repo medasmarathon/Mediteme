@@ -1,29 +1,29 @@
 {
-    "name": "mediteme",
-    "displayName": "Meditheme",
-    "description": "Dark syntax semantic color theme",
-    "version": "1.0.58",
-    "engines": {
-        "vscode": "^1.40.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "publisher": "DucDang",
-    "author": {
-        "name": "Duc Dang",
-        "email": "artesuto@gmail.com"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Meditheme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Meditheme-color-theme.json"
-            }
-        ]
-    },
-    "repository": {
-        "url": "https://github.com/medasmarathon/Mediteme"
-    }
+  "name": "mediteme",
+  "displayName": "Meditheme",
+  "description": "Dark syntax semantic color theme",
+  "version": "1.0.59",
+  "engines": {
+    "vscode": "^1.40.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "publisher": "DucDang",
+  "author": {
+    "name": "Duc Dang",
+    "email": "artesuto@gmail.com"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Meditheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Meditheme-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "url": "https://github.com/medasmarathon/Mediteme"
+  }
 }
