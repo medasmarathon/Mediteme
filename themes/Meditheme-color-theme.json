@@ -4,7 +4,7 @@
   "colors": {
     "activityBar.background": "#06162c",
     "badge.background": "#569cd6",
-    "editor.background": "#292e30",
+    "editor.background": "#232627",
     "editor.foreground": "#e8e0c8",
     "editorCursor.foreground": "#e8e0c8",
     "titleBar.activeBackground": "#104596",
@@ -495,7 +495,7 @@
     //"editor.findMatchBorder": null,
     //"editor.findMatchHighlightBorder": null,
     //"editor.findRangeHighlightBorder": null,
-    "editor.lineHighlightBackground": "#282c2c81",
+    "editor.lineHighlightBackground": "#0e1313b6",
     //"editor.rangeHighlightBorder": "#cc0000",
     //"editor.selectionForeground": "#cc0000",
     "editor.selectionHighlightBorder": "#59adf781",
