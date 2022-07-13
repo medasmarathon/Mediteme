@@ -593,8 +593,8 @@
     //"window.inactiveBorder": null
   },
   "semanticTokenColors": {
-    "namespace": "#d197fa",
-    "interface": "#d197fa",
+    "namespace": "#267cc2",
+    "interface": "#267cc2",
     "class": "#33a3ff",
     "function": {
       "foreground": "#6cfdb4e7",
@@ -747,7 +747,7 @@
     {
       "scope": "entity.name.type.interface, entity.name.type.namespace",
       "settings": {
-        "foreground": "#d197fa",
+        "foreground": "#267cc2",
         "fontStyle": ""
       }
     },
