@@ -579,7 +579,7 @@
     //"tab.unfocusedHoverBorder": null,
     //"tab.unfocusedHoverForeground": null,
     "terminal.background": "#101416",
-    "terminal.tab.activeBorder": "#ff0202",
+    "terminal.tab.activeBorder": "#ff0202"
     //"terminalCursor.background": null,
     //"terminalCursor.foreground": null,
     //"testing.message.hint.lineBackground": null,
@@ -593,9 +593,9 @@
     //"window.inactiveBorder": null
   },
   "semanticTokenColors": {
-    "namespace": "#6a9dfc",
-    "interface": "#6a9dfc",
-    "class": "#61AFEF",
+    "namespace": "#d197fa",
+    "interface": "#d197fa",
+    "class": "#33a3ff",
     "function": {
       "foreground": "#6cfdb4e7",
       "bold": false
@@ -627,16 +627,16 @@
       "italic": false
     },
     "variable.readonly.local": {
-      "foreground": "#b4d3dbe7",
+      "foreground": "#c1e6f0e7",
       "italic": false,
       "bold": false
     },
     "variable.defaultLibrary": {
-      "foreground": "#719cf1",
-      "bold": true
+      "foreground": "#33a3ff",
+      "bold": false
     },
-    "property": "#fdf7d6c7",
-    "field": "#fdf7d6c7",
+    "property": "#9CDCFE",
+    "field": "#9CDCFE",
     "parameter": "#e3e4dcee",
     "selfParameter": {
       "foreground": "#c6ccd7",
@@ -671,7 +671,7 @@
     {
       "scope": "support.variable, variable.parameter, variable.other",
       "settings": {
-        "foreground": "#e3e4dcee",
+        "foreground": "#9CDCFE",
         "fontStyle": ""
       }
     },
@@ -740,14 +740,14 @@
     {
       "scope": "entity.name.type.alias, entity.name.type.class, meta.return.type, class.type.name, storage.type.variable, meta.type.annotation, return-type, inherited-class, entity.other.inherited-class, declaration.entity.type, declaration.heritage.type, storage.type.cs, new.expr, string.language.gherkin",
       "settings": {
-        "foreground": "#61AFEF",
+        "foreground": "#33a3ff",
         "fontStyle": ""
       }
     },
     {
       "scope": "entity.name.type.interface, entity.name.type.namespace",
       "settings": {
-        "foreground": "#8f9ff0",
+        "foreground": "#d197fa",
         "fontStyle": ""
       }
     },
