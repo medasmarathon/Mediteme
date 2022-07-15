@@ -596,6 +596,9 @@
     "namespace": "#267cc2",
     "interface": "#267cc2",
     "class": "#33a3ff",
+    "type": "#33a3ff",
+    "*.typeHint": "#267cc2",
+    "*.decorator": "#afeeff",
     "function": {
       "foreground": "#6cfdb4e7",
       "bold": false
@@ -610,7 +613,7 @@
       "bold": false
     },
     "annotation": {
-      "foreground": "#c1f0fd",
+      "foreground": "#afeeff",
       "bold": false,
       "italic": true
     },
@@ -676,7 +679,7 @@
       }
     },
     {
-      "scope": "keyword, keyword.control, keyword.operator.expression, storage, primitive, modifier, language.constant, meta.preprocessor, variable.language.this, support.type.primitive, keyword.language.gherkin.feature",
+      "scope": "keyword, keyword.control, keyword.operator.expression, storage, primitive, modifier, language.constant, meta.preprocessor, variable.language.this, support.type.primitive, keyword.language.gherkin.feature, punctuation.definition.decorator",
       "settings": {
         "foreground": "#fd9743"
       }
@@ -745,7 +748,7 @@
       }
     },
     {
-      "scope": "entity.name.type.interface, entity.name.type.namespace",
+      "scope": "entity.name.type.interface, entity.name.type.namespace, entity.name.type.model",
       "settings": {
         "foreground": "#267cc2",
         "fontStyle": ""
@@ -784,7 +787,7 @@
       }
     },
     {
-      "scope": "property-name, support.function, meta.function-call, entity.name.function, variable.legacy.builtin, keyword.language.gherkin.feature.step, text.gherkin.feature entity.name.type.class",
+      "scope": "property-name, support.function, meta.function-call, entity.name.function, variable.legacy.builtin, keyword.language.gherkin.feature.step, text.gherkin.feature",
       "settings": {
         "foreground": "#6cfdb4e7"
       }
