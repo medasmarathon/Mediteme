@@ -801,7 +801,7 @@
     {
       "scope": "entity.name.tag, selector, selector.attribute-name",
       "settings": {
-        "foreground": "#FFA346"
+        "foreground": "#E5C07B"
       }
     },
     {
