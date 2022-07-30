@@ -692,7 +692,7 @@
       }
     },
     {
-      "scope": "keyword.operator.logical",
+      "scope": "keyword.operator.logical, punctuation.accessor",
       "settings": {
         "foreground": "#e6616c",
         "fontStyle": "bold"
@@ -741,7 +741,7 @@
       }
     },
     {
-      "scope": "entity.name.type.alias, entity.name.type.class, meta.return.type, class.type.name, storage.type.variable, meta.type.annotation, return-type, inherited-class, entity.other.inherited-class, declaration.entity.type, declaration.heritage.type, storage.type.cs, new.expr, string.language.gherkin",
+      "scope": "entity.name.type, entity.name.type.alias, entity.name.type.class, meta.return.type, class.type.name, storage.type.variable, meta.type.annotation, return-type, inherited-class, entity.other.inherited-class, declaration.entity.type, declaration.heritage.type, storage.type.cs, new.expr, string.language.gherkin",
       "settings": {
         "foreground": "#33a3ff",
         "fontStyle": ""
@@ -818,7 +818,7 @@
       }
     },
     {
-      "scope": "tag.quoted, string.quoted.double.html, punctuation.definition.string.begin.html, punctuation.definition.string.end.html",
+      "scope": "tag.quoted, string.quoted.double.html, string.quoted.single.html, punctuation.definition.string.begin.html, punctuation.definition.string.end.html",
       "settings": {
         "foreground": "#A3A3A3"
       }
