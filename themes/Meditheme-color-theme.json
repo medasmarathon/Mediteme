@@ -685,7 +685,7 @@
       }
     },
     {
-      "scope": "keyword.type, keyword.other, keyword.operator.new, variable.language.this",
+      "scope": "keyword.type, keyword.other, keyword.operator.new",
       "settings": {
         "foreground": "#f5c748ea",
         "fontStyle": ""
@@ -713,9 +713,9 @@
       }
     },
     {
-      "scope": "storage.type.annotation",
+      "scope": "storage.type.annotation, variable.language.this",
       "settings": {
-        "foreground": "#9feea9",
+        "foreground": "#e2f8e5",
         "fontStyle": "italic"
       }
     },
