@@ -679,13 +679,13 @@
       }
     },
     {
-      "scope": "keyword, keyword.control, keyword.operator.expression, storage, primitive, modifier, language.constant, meta.preprocessor, variable.language.this, support.type.primitive, keyword.language.gherkin.feature, punctuation.definition.decorator",
+      "scope": "keyword, storage, keyword.control, keyword.operator.expression, primitive, modifier, language.constant, meta.preprocessor, support.type.primitive, keyword.language.gherkin.feature, punctuation.definition.decorator",
       "settings": {
         "foreground": "#fd9743"
       }
     },
     {
-      "scope": "keyword.type, keyword.other, keyword.operator.new",
+      "scope": "keyword.type, keyword.other, keyword.operator.new, variable.language.this",
       "settings": {
         "foreground": "#f5c748ea",
         "fontStyle": ""
@@ -875,9 +875,13 @@
       }
     },
     {
-      "scope": ["variable.other.object.property", "variable.other.property"],
+      "scope": [
+        "variable.other.object.property",
+        "variable.other.property",
+        "variable.other.constant.property"
+      ],
       "settings": {
-        "foreground": "#fdf4c4b0"
+        "foreground": "#c4bb8cf6"
       }
     },
     {
