@@ -672,7 +672,14 @@
       }
     },
     {
-      "scope": "support.variable, variable.parameter, variable.other",
+      "scope": "variable.other",
+      "settings": {
+        "foreground": "#968b9b",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "support.variable, variable.parameter",
       "settings": {
         "foreground": "#9CDCFE",
         "fontStyle": ""
