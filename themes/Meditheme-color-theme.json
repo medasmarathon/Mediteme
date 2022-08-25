@@ -796,7 +796,8 @@
     {
       "scope": "property-name, support.function, meta.function-call, entity.name.function, variable.legacy.builtin, keyword.language.gherkin.feature.step, text.gherkin.feature",
       "settings": {
-        "foreground": "#6cfdb4e7"
+        "foreground": "#6cfdb4e7",
+        "fontStyle": ""
       }
     },
     {
@@ -888,7 +889,8 @@
         "variable.other.constant.property"
       ],
       "settings": {
-        "foreground": "#c4bb8cf6"
+        "foreground": "#c4bb8cf6",
+        "fontStyle": ""
       }
     },
     {
