@@ -757,7 +757,7 @@
     {
       "scope": "entity.name.type.interface, entity.name.type.namespace, entity.name.type.model",
       "settings": {
-        "foreground": "#267cc2",
+        "foreground": "#558dbb",
         "fontStyle": ""
       }
     },
@@ -771,7 +771,7 @@
     {
       "scope": "string, punctuation.definition.string, keyword.operator.quantifier.regexp",
       "settings": {
-        "foreground": "#EC9D9D",
+        "foreground": "#c9a192",
         "fontStyle": ""
       }
     },
